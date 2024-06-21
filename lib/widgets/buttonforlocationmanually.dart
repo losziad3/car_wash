@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class Custombuttonloc extends StatelessWidget {
   Custombuttonloc({this.onTap, required this.text, this.color, this.colorLocation});

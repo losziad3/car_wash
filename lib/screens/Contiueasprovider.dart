@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/screens/Login.dart';
-import 'package:washit_project/screens/Loginprovider.dart';
-import 'package:washit_project/widgets/ButtonProvider2.dart';
-import 'package:washit_project/widgets/Buttonprovider.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/buttonforlocationmanually.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Login.dart';
+import 'package:car_wash/screens/Loginprovider.dart';
+import 'package:car_wash/widgets/ButtonProvider2.dart';
+import 'package:car_wash/widgets/Buttonprovider.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/buttonforlocationmanually.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class Provider extends StatelessWidget {
   const Provider({Key? key});

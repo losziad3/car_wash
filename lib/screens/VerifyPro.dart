@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:washit_project/screens/Profile.dart';
-import 'package:washit_project/screens/UploadDocuments.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Profile.dart';
+import 'package:car_wash/screens/UploadDocuments.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 import '../features/authentication/verification/presentation/widgets/otp_form.dart';
 

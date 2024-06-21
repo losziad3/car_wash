@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:washit_project/core/widgets/app_bar.dart';
-import 'package:washit_project/core/widgets/app_text_button.dart';
-import 'package:washit_project/features/authentication/verification/presentation/cubit/verification_cubit.dart';
+import 'package:car_wash/core/widgets/app_bar.dart';
+import 'package:car_wash/core/widgets/app_text_button.dart';
+import 'package:car_wash/features/authentication/verification/presentation/cubit/verification_cubit.dart';
 
 import '../../../../../core/helpers/app_regex.dart';
 import '../../../../../core/helpers/spacing.dart';

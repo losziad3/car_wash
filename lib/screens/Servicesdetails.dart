@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/screens/Servicesbar.dart';
-import 'package:washit_project/screens/addReviews.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/Gallery.dart';
-import 'package:washit_project/widgets/Reviews.dart';
-import 'package:washit_project/widgets/Weekdays.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Servicesbar.dart';
+import 'package:car_wash/screens/addReviews.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/Gallery.dart';
+import 'package:car_wash/widgets/Reviews.dart';
+import 'package:car_wash/widgets/Weekdays.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class ServicesDetails extends StatefulWidget {
   const ServicesDetails({Key? key});

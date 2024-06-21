@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/core/di/dependency_injection.dart';
+import 'package:car_wash/core/di/dependency_injection.dart';
 import 'core/routing/app_router.dart';
 import 'core/routing/routes.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

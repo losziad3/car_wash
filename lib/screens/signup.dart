@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
-import 'package:washit_project/cubits/auth_cubit/auth_state.dart';
-import 'package:washit_project/screens/Login.dart';
-import 'package:washit_project/widgets/CircleAvater.dart';
-import 'package:washit_project/widgets/CustomTextformfield.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/cubits/auth_cubit/auth_state.dart';
+import 'package:car_wash/screens/Login.dart';
+import 'package:car_wash/widgets/CircleAvater.dart';
+import 'package:car_wash/widgets/CustomTextformfield.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 import '../cubits/auth_cubit/auth_cubit.dart';
 

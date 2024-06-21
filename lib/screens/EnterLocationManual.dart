@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class EnterLocationManual extends StatelessWidget {
   const EnterLocationManual({super.key});

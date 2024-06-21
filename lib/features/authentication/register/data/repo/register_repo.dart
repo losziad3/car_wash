@@ -1,6 +1,6 @@
-import 'package:washit_project/core/networking/api_constants.dart';
-import 'package:washit_project/core/networking/api_result.dart';
-import 'package:washit_project/features/authentication/register/data/models/register_request.dart';
+import 'package:car_wash/core/networking/api_constants.dart';
+import 'package:car_wash/core/networking/api_result.dart';
+import 'package:car_wash/features/authentication/register/data/models/register_request.dart';
 
 import '../../../../../core/networking/api_services.dart';
 import '../models/register_response.dart';

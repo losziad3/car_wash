@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:washit_project/core/constants/app_constant.dart';
-import 'package:washit_project/core/widgets/app_bar.dart';
-import 'package:washit_project/features/profile_screen/presentation/widgets/profile_screen_item.dart';
-import 'package:washit_project/widgets/my_separator.dart';
+import 'package:car_wash/core/constants/app_constant.dart';
+import 'package:car_wash/core/widgets/app_bar.dart';
+import 'package:car_wash/features/profile_screen/presentation/widgets/profile_screen_item.dart';
+import 'package:car_wash/widgets/my_separator.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

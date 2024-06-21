@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:washit_project/core/constants/app_constant.dart';
-import 'package:washit_project/cubits/layout_cubit/layout_cubit.dart';
-import 'package:washit_project/cubits/layout_cubit/layout_state.dart';
+import 'package:car_wash/core/constants/app_constant.dart';
+import 'package:car_wash/cubits/layout_cubit/layout_cubit.dart';
+import 'package:car_wash/cubits/layout_cubit/layout_state.dart';
 
 class Layout extends StatelessWidget {
   @override

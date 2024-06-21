@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:washit_project/core/theming/styles.dart';
-import 'package:washit_project/widgets/CircleAvater.dart';
+import 'package:car_wash/core/theming/styles.dart';
+import 'package:car_wash/widgets/CircleAvater.dart';
 import '../theming/colors.dart';
 
 AppBar appBarWithCustomAvatar(String title, VoidCallback onTap) {

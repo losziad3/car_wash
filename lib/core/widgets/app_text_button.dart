@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:washit_project/core/theming/colors.dart';
-import 'package:washit_project/core/theming/styles.dart';
+import 'package:car_wash/core/theming/colors.dart';
+import 'package:car_wash/core/theming/styles.dart';
 
 class AppTextButton extends StatelessWidget {
   final String buttonText;

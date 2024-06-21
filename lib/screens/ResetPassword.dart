@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:washit_project/screens/Checkemail.dart';
-import 'package:washit_project/screens/NewPassword.dart';
-import 'package:washit_project/widgets/CustomTextformfield.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Checkemail.dart';
+import 'package:car_wash/screens/NewPassword.dart';
+import 'package:car_wash/widgets/CustomTextformfield.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class ResetPass extends StatelessWidget {
   const ResetPass({super.key});

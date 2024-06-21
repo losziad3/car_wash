@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/core/helpers/spacing.dart';
+import 'package:car_wash/core/helpers/spacing.dart';
 
 import '../../../../../widgets/CircleAvater.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:washit_project/core/constants/app_constant.dart';
+import 'package:car_wash/core/constants/app_constant.dart';
 
 class ProfileScreenItem extends StatelessWidget {
   String iconPath;

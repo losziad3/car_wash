@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/cubits/auth_cubit/auth_state.dart';
-import 'package:washit_project/screens/Profile.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/cubits/auth_cubit/auth_state.dart';
+import 'package:car_wash/screens/Profile.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 import '../cubits/auth_cubit/auth_cubit.dart';
 import '../features/authentication/verification/presentation/widgets/otp_form.dart';

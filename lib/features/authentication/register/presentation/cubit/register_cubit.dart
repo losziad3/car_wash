@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/features/authentication/register/presentation/cubit/register_states.dart';
+import 'package:car_wash/features/authentication/register/presentation/cubit/register_states.dart';
 import '../../data/models/register_request.dart';
 import '../../data/repo/register_repo.dart';
 

@@ -1,7 +1,7 @@
-import 'package:washit_project/core/networking/api_services.dart';
-import 'package:washit_project/core/networking/api_constants.dart';
-import 'package:washit_project/core/networking/api_result.dart';
-import 'package:washit_project/features/authentication/verification/data/models/reset_password_response.dart';
+import 'package:car_wash/core/networking/api_services.dart';
+import 'package:car_wash/core/networking/api_constants.dart';
+import 'package:car_wash/core/networking/api_result.dart';
+import 'package:car_wash/features/authentication/verification/data/models/reset_password_response.dart';
 import '../../../register/data/models/register_response.dart';
 import '../models/activate_request.dart';
 import '../models/new_password_request.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/screens/Verficiation.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Verficiation.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class CheckMail extends StatefulWidget {
   const CheckMail({super.key});

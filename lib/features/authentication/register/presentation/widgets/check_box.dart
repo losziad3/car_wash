@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/core/theming/styles.dart';
+import 'package:car_wash/core/theming/styles.dart';
 class CheckBox extends StatefulWidget {
 
   const CheckBox({super.key});

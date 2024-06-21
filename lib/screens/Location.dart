@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/screens/EnterLocationManual.dart';
-import 'package:washit_project/screens/NotifcationLocation.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/buttonforlocationmanually.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/EnterLocationManual.dart';
+import 'package:car_wash/screens/NotifcationLocation.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/buttonforlocationmanually.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class Locationpage extends StatelessWidget {
   

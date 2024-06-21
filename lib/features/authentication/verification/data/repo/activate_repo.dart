@@ -1,7 +1,7 @@
-import 'package:washit_project/core/networking/api_services.dart';
-import 'package:washit_project/core/helpers/shared_preferences_helper.dart';
+import 'package:car_wash/core/networking/api_services.dart';
+import 'package:car_wash/core/helpers/shared_preferences_helper.dart';
 import '../../../../../core/networking/api_constants.dart';
-import 'package:washit_project/core/networking/api_result.dart';
+import 'package:car_wash/core/networking/api_result.dart';
 
 import '../models/activate_request.dart';
 import '../models/activate_response.dart';

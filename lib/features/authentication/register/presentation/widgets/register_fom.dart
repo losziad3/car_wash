@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/core/theming/styles.dart';
-import 'package:washit_project/core/widgets/app_text_form_field.dart';
-import 'package:washit_project/features/authentication/register/presentation/cubit/register_cubit.dart';
-import 'package:washit_project/features/authentication/register/presentation/widgets/intl_phone_filed.dart';
+import 'package:car_wash/core/theming/styles.dart';
+import 'package:car_wash/core/widgets/app_text_form_field.dart';
+import 'package:car_wash/features/authentication/register/presentation/cubit/register_cubit.dart';
+import 'package:car_wash/features/authentication/register/presentation/widgets/intl_phone_filed.dart';
 
 import '../../../../../core/helpers/app_regex.dart';
 import '../../../../../core/helpers/spacing.dart';

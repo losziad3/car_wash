@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/widgets/CustomTextformfield.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/CustomTextformfield.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class NewPassword extends StatelessWidget {
   const NewPassword({super.key});

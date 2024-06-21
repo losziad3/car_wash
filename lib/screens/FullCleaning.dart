@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:washit_project/screens/Servicesdetails.dart';
-import 'package:washit_project/widgets/CustomStack.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Servicesdetails.dart';
+import 'package:car_wash/widgets/CustomStack.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class FullCleaning extends StatelessWidget {
   const FullCleaning({super.key});

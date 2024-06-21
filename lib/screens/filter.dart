@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/screens/Searchhomepage.dart';
-import 'package:washit_project/widgets/Starcontainer.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Searchhomepage.dart';
+import 'package:car_wash/widgets/Starcontainer.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class Filter extends StatefulWidget {
   const Filter({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/features/authentication/register/presentation/cubit/profile_states.dart';
+import 'package:car_wash/features/authentication/register/presentation/cubit/profile_states.dart';
 import '../../data/models/profile_request.dart';
 import '../../data/repo/profile_repo.dart';
 class ProfileCubit extends Cubit<ProfileStates> {

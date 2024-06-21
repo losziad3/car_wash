@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/screens/LoginFacebook.dart';
-import 'package:washit_project/screens/ResetPassword.dart';
-import 'package:washit_project/screens/Verficiation.dart';
-import 'package:washit_project/screens/signup.dart';
-import 'package:washit_project/widgets/CircleAvater.dart';
-import 'package:washit_project/widgets/CustomTextformfield.dart';
-import 'package:washit_project/widgets/CustomButton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/LoginFacebook.dart';
+import 'package:car_wash/screens/ResetPassword.dart';
+import 'package:car_wash/screens/Verficiation.dart';
+import 'package:car_wash/screens/signup.dart';
+import 'package:car_wash/widgets/CircleAvater.dart';
+import 'package:car_wash/widgets/CustomTextformfield.dart';
+import 'package:car_wash/widgets/CustomButton.dart';
+import 'package:car_wash/widgets/constant.dart';
 import 'package:http/http.dart' as http;
 
 import '../cubits/auth_cubit/auth_cubit.dart';

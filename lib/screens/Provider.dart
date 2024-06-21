@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/constant.dart';
 import '../widgets/Custombutton.dart';
 
 class provider extends StatelessWidget {

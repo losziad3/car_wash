@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/widgets/CustomStack.dart';
+import 'package:car_wash/widgets/CustomStack.dart';
 
 class NearestServices extends StatelessWidget {
   const NearestServices({super.key});

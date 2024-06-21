@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class ServiceContainer extends StatelessWidget {
   const ServiceContainer({super.key});

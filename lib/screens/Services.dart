@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washit_project/widgets/Customcontainer.dart';
+import 'package:car_wash/widgets/Customcontainer.dart';
 
 class Services extends StatelessWidget {
   const Services({super.key});

@@ -1,7 +1,7 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class UploadDocuments extends StatelessWidget {
   const UploadDocuments({super.key});

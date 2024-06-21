@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/cubits/layout_cubit/layout_state.dart';
-import 'package:washit_project/features/bookmark_screen/presentation/screen/bookmark_screen.dart';
-import 'package:washit_project/features/explore_screen/presentation/screen/explore_screen.dart';
-import 'package:washit_project/features/home_screen/presentation/screen/home_screen.dart';
-import 'package:washit_project/features/profile_screen/presentation/screen/profile_screen.dart';
-import 'package:washit_project/features/schedule_screen/presentation/screen/schedule_screen.dart';
+import 'package:car_wash/cubits/layout_cubit/layout_state.dart';
+import 'package:car_wash/features/bookmark_screen/presentation/screen/bookmark_screen.dart';
+import 'package:car_wash/features/explore_screen/presentation/screen/explore_screen.dart';
+import 'package:car_wash/features/home_screen/presentation/screen/home_screen.dart';
+import 'package:car_wash/features/profile_screen/presentation/screen/profile_screen.dart';
+import 'package:car_wash/features/schedule_screen/presentation/screen/schedule_screen.dart';
 
 class LayoutCubit extends Cubit<LayoutStates> {
   LayoutCubit() : super(LayoutInitialState());

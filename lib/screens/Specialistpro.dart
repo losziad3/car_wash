@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
-import 'package:washit_project/screens/Login.dart';
-import 'package:washit_project/screens/Verficiation.dart';
-import 'package:washit_project/screens/VerifyPro.dart';
-import 'package:washit_project/widgets/CustomTextformfield.dart';
-import 'package:washit_project/widgets/Custombutton.dart';
-import 'package:washit_project/widgets/constant.dart';
+import 'package:car_wash/screens/Login.dart';
+import 'package:car_wash/screens/Verficiation.dart';
+import 'package:car_wash/screens/VerifyPro.dart';
+import 'package:car_wash/widgets/CustomTextformfield.dart';
+import 'package:car_wash/widgets/Custombutton.dart';
+import 'package:car_wash/widgets/constant.dart';
 
 class Specialistpro extends StatefulWidget {
   const Specialistpro({super.key});

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:washit_project/cubits/auth_cubit/auth_state.dart';
+import 'package:car_wash/cubits/auth_cubit/auth_state.dart';
 
 class Authcubit extends Cubit <Authstate>{
   Authcubit() : super(AuthIntialstate());

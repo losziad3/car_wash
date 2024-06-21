@@ -9,7 +9,7 @@ import '../../../../../core/widgets/app_text_button.dart';
 import '../cubit/verification_cubit.dart';
 import '../cubit/verification_states.dart';  // Import the states
 import '../widgets/password_form.dart';
-import 'package:washit_project/features/authentication/verification/data/models/new_password_request.dart';
+import 'package:car_wash/features/authentication/verification/data/models/new_password_request.dart';
 
 class NewPasswordPage extends StatelessWidget {
   const NewPasswordPage({super.key});

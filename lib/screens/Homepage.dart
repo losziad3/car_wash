@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:washit_project/screens/FullCleaning.dart';
-import 'package:washit_project/screens/NearestServices.dart';
-import 'package:washit_project/screens/Services.dart';
-import 'package:washit_project/screens/filter.dart';
-import 'package:washit_project/widgets/Customcontainer.dart';
-import 'package:washit_project/widgets/constant.dart';
-import 'package:washit_project/widgets/servicescontainer.dart';
+import 'package:car_wash/screens/FullCleaning.dart';
+import 'package:car_wash/screens/NearestServices.dart';
+import 'package:car_wash/screens/Services.dart';
+import 'package:car_wash/screens/filter.dart';
+import 'package:car_wash/widgets/Customcontainer.dart';
+import 'package:car_wash/widgets/constant.dart';
+import 'package:car_wash/widgets/servicescontainer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

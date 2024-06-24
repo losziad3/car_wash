@@ -46,10 +46,11 @@ class CustomTextformfield extends StatelessWidget {
         validator: validator,
         onChanged: onChanged,
         decoration: InputDecoration(
+
           
           enabledBorder: OutlineInputBorder(
 
-            borderSide: BorderSide(color: Color(0xFFFFFFFF)),
+            borderSide: const BorderSide(color: Color(0xFFFFFFFF)),
             borderRadius: BorderRadius.circular(36),
           ),
           focusedBorder: OutlineInputBorder(
@@ -58,7 +59,7 @@ class CustomTextformfield extends StatelessWidget {
           ),
           hintText: hinttext,
           labelText: label,
-          hintStyle: TextStyle(color: Colors.grey),
+          hintStyle: const TextStyle(color: Colors.grey),
           filled: true,
           fillColor: Colors.grey[100],
          suffixIcon: svgSuffixIconPath != null
@@ -75,7 +76,7 @@ class CustomTextformfield extends StatelessWidget {
                   size: screenWidth * 0.06,
                 )
               : null,
-          contentPadding: EdgeInsets.symmetric(
+          contentPadding: const EdgeInsets.symmetric(
             horizontal: 16,
             vertical: 12,
           ),

@@ -1,9 +1,15 @@
+import 'package:car_wash/features/profile_screen/presentation/screen/your_profile.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:car_wash/core/constants/app_constant.dart';
 import 'package:car_wash/core/widgets/app_bar.dart';
 import 'package:car_wash/features/profile_screen/presentation/widgets/profile_screen_item.dart';
 import 'package:car_wash/widgets/my_separator.dart';
+
+import '../../../../core/di/dependency_injection.dart';
+import '../../../../cubits/auth_cubit/auth_cubit.dart';
+import '../../../../screens/signup.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -18,7 +24,9 @@ class ProfileScreen extends StatelessWidget {
            ProfileScreenItem(
              iconPath: kUserIcon,
              text: 'Your Profile',
-             onTap: (){},
+             onTap: () {
+               Navigator.push(context, MaterialPageRoute(builder: (context) => YourProfile(),));
+             },
            ),
           const SizedBox(
             height: 10.0,
@@ -30,7 +38,19 @@ class ProfileScreen extends StatelessWidget {
           ProfileScreenItem(
             iconPath: kCardIcon,
             text: 'Payment Cards',
-            onTap: (){},
+            onTap: (){
+              ///TODO: REMOVE THIS
+              print("TAPED");
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => BlocProvider(
+                    create: (context) => Authcubit(),
+                    child:  SignUp(),
+                  ),
+                ),
+              );
+            },
           ),
           const SizedBox(
             height: 10.0,

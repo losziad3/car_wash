@@ -1,3 +1,4 @@
+import 'package:car_wash/widgets/custom_number_text_form_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
@@ -7,6 +8,7 @@ import 'package:car_wash/widgets/CircleAvater.dart';
 import 'package:car_wash/widgets/CustomTextformfield.dart';
 import 'package:car_wash/widgets/Custombutton.dart';
 import 'package:car_wash/widgets/constant.dart';
+import 'package:intl_phone_field/phone_number.dart';
 
 import '../cubits/auth_cubit/auth_cubit.dart';
 
@@ -26,7 +28,7 @@ class _SignUpState extends State<SignUp> {
   String? email; // Store the user's email
   String? password; // Store the user's password
   String? phoneNumber; // Store the user's phone number
-
+  void Function(PhoneNumber)? onChanged;
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context);
@@ -37,11 +39,11 @@ class _SignUpState extends State<SignUp> {
     return BlocConsumer<Authcubit, Authstate>(
       listener: (context, state) {
         if(state is RegisterLoadingstate){
-          Center(child: CircularProgressIndicator());
+          const Center(child: CircularProgressIndicator());
         }
       if (state is Registersucessstate){
         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
-          return  Login();
+          return  const Login();
         }
         )
         ,);
@@ -49,7 +51,7 @@ class _SignUpState extends State<SignUp> {
         showDialog(context: context, builder: (context) => Scaffold(
           appBar: AppBar(),
           body: Container(
-              child: Center(child: Text("There is an Error, Try Again Later",style: TextStyle(color: Colors.white),)),
+              child: const Center(child: Text("There is an Error, Try Again Later",style: TextStyle(color: Colors.white),)),
               color: Colors.black,
           ),
         ),);
@@ -89,7 +91,7 @@ class _SignUpState extends State<SignUp> {
                       style: TextStyle(color: Colors.grey[700]),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Padding(
@@ -142,64 +144,7 @@ class _SignUpState extends State<SignUp> {
                     ),
                   ),
                   // Phone number input with validation
-                  Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: screenWidth * 0.03,
-                    ),
-                    child: IntlPhoneField(
-                      initialCountryCode: 'EG',
-                      showCountryFlag: false,
-                      showDropdownIcon: false,
-                      keyboardType: TextInputType.number,
-                      decoration: InputDecoration(
-                        enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(32),
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(32),
-                        ),
-                        border: OutlineInputBorder(),
-                        hintText: "Enter Phone Number",
-                        hintStyle: TextStyle(
-                          color: Colors.grey,
-                          fontSize: 14 * textScaleFactor,
-                        ),
-                        filled: true,
-                        fillColor: Colors.grey[100],
-                        contentPadding: EdgeInsets.symmetric(
-                            horizontal: screenWidth * 0.01),
-                        // Set the prefix text to "+20^"
-                        prefixIcon: Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 0),
-                          child: Icon(Icons.access_alarms),
-                        ),
-                      ),
-                      onChanged: (value) {
-                        // Handle phone number input
-                        phoneNumber =
-                            value.completeNumber; // Save the phone number input
-                      },
-                      validator: (value) {
-                        // Validate phone number input
-                        if (value!.number == null || value.number.isEmpty) {
-                          return 'Phone number is required';
-                        }
-                
-                        // Define a regular expression for Egyptian phone numbers
-                        final egyptPhoneNumberRegex = RegExp(r'^\+20\d{10}$');
-                
-                        // Check if the phone number matches the Egyptian phone number pattern
-                        if (!egyptPhoneNumberRegex
-                            .hasMatch(value.completeNumber)) {
-                          return 'Please enter a valid Egyptian phone number starting with +20';
-                        }
-                
-                        return null; // Phone number is valid
-                      },
-                    ),
-                  ),
+                  customNumberTextFormField(screenWidth, textScaleFactor, onChanged),
                   SizedBox(height: screenHeight * 0.01),
                   Padding(
                     padding: EdgeInsets.only(left: screenWidth * 0.03),
@@ -244,10 +189,10 @@ class _SignUpState extends State<SignUp> {
                         },
                         activeColor: Colors.blue,
                       ),
-                      Text("Agree with "),
+                      const Text("Agree with "),
                       GestureDetector(
                         onTap: () {},
-                        child: Text(
+                        child: const Text(
                           "Terms & Condition",
                           style: TextStyle(
                             color: Colors.blue,
@@ -298,7 +243,7 @@ class _SignUpState extends State<SignUp> {
                       Padding(
                         padding: EdgeInsets.symmetric(
                             horizontal: screenWidth * 0.02),
-                        child: Text("Or sign up with"),
+                        child: const Text("Or sign up with"),
                       ),
                       Expanded(
                         child: Divider(
@@ -338,7 +283,7 @@ class _SignUpState extends State<SignUp> {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return Login();
+                                return const Login();
                               },
                             ),
                           );
@@ -346,11 +291,11 @@ class _SignUpState extends State<SignUp> {
                         child: Text(
                           "Sign In",
                           style: TextStyle(
-                            color: Color(0xFF346EF7),
+                            color: const Color(0xFF346EF7),
                             fontWeight: FontWeight.w500,
                             fontSize: 12 * textScaleFactor,
                             decoration: TextDecoration.underline,
-                            decorationColor: Color(0xFF346EF7),
+                            decorationColor: const Color(0xFF346EF7),
                           ),
                         ),
                       ),
@@ -364,4 +309,6 @@ class _SignUpState extends State<SignUp> {
       },
     );
   }
+
+
 }

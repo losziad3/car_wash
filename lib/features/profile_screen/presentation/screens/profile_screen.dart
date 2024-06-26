@@ -1,3 +1,4 @@
+import 'package:car_wash/features/profile_screen/presentation/screen/my_booking_screen.dart';
 import 'package:car_wash/features/profile_screen/presentation/screen/your_profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -62,7 +63,10 @@ class ProfileScreen extends StatelessWidget {
           ProfileScreenItem(
             iconPath: kCalendarIcon,
             text: 'My Bookings',
-            onTap: (){},
+            onTap: ()
+            {
+             Navigator.push(context, MaterialPageRoute(builder: (context) => MyBookingScreen(),));
+            },
           ),
           const SizedBox(
             height: 10.0,

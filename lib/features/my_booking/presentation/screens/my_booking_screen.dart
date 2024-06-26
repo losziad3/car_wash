@@ -1,3 +1,6 @@
+import 'package:car_wash/features/my_booking/presentation/screens/active_booking_screen.dart';
+import 'package:car_wash/features/my_booking/presentation/screens/cancelled_booking_screen.dart';
+import 'package:car_wash/features/my_booking/presentation/screens/completed_booking_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/widgets/app_bar.dart';
@@ -12,7 +15,7 @@ class MyBookingScreen extends StatelessWidget {
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () {
-              // Handle back button press
+              Navigator.pop(context);
             },
           ),
           title: const Text('My Bookings'),
@@ -44,29 +47,7 @@ class MyBookingScreen extends StatelessWidget {
   }
 }
 
-class ActiveBookingsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Active Bookings Screen'),
-    );
-  }
-}
 
-class CompletedBookingsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Completed Bookings Screen'),
-    );
-  }
-}
 
-class CancelledBookingsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Cancelled Bookings Screen'),
-    );
-  }
-}
+
+

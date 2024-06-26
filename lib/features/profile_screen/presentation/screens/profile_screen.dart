@@ -1,5 +1,5 @@
-import 'package:car_wash/features/profile_screen/presentation/screen/my_booking_screen.dart';
-import 'package:car_wash/features/profile_screen/presentation/screen/your_profile.dart';
+import 'package:car_wash/features/my_booking/presentation/screens/my_booking_screen.dart';
+import 'package:car_wash/features/profile_screen/presentation/screens/your_profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
